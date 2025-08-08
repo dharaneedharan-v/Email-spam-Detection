@@ -104,7 +104,4 @@ Easy Money Program
 
 
 
-<p align="center">
- `💡created by Adarsh Raj❤️`
-</p>
 
