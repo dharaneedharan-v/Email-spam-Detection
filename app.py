@@ -6,7 +6,7 @@ from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
 import re
-
+import os
 # Download nltk resources if not already present
 try:
     nltk.download('punkt_tab')
@@ -82,4 +82,6 @@ def health():
     return jsonify({'status': 'API is running'})
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5001)
+    # Use Render's PORT environment variable or default to 5000
+    port = int(os.environ.get('PORT', 5000))
+    app.run(debug=False, host='0.0.0.0', port=port)
