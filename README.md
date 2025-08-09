@@ -134,5 +134,11 @@ Email spam is a persistent problem affecting individuals and organizations world
    ├─ spam.csv
    └─ vectorizer.pkl
 ```
+## ScreenShots: 
+<img width="1903" height="879" alt="image" src="https://github.com/user-attachments/assets/799bb33e-3b85-4cc8-8852-97e80c378846" />
+
+<img width="1904" height="872" alt="image" src="https://github.com/user-attachments/assets/a6f3e4a9-b045-4cb4-ac1d-9dfeb6bae317" />
+
+
 ## License
 This project is licensed under the **MIT** License.
